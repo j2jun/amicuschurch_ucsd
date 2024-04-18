@@ -63,11 +63,12 @@
 								<div class="image fit">
 									<img src="images/pic02.jpg" alt="" width="3472" height="1236"></div>
 								<div class="content">
-									<header class="align-center"><h2>Weekly Meetups – Refreshments, Support, and Good Vibes Only</h2>
-										<p><li>Free Coffee Time: Start your morning with warmth.</li>
-											<li>Lunch on Us: Take a break and refuel midday.</li>
-											<li>Hangouts: Relax and recharge with us.</li></p>
-									</header><hr><p></p>
+									<header class="align-center"><h2>Weekly Meetups</h2>
+										<p>Refreshments, Support, and Good Vibes Only</p>
+									</header><hr><p>
+										<li>Free Coffee Time: Start your morning with warmth.</li>
+										<li>Lunch on Us: Take a break and refuel midday.</li>
+										<li>Hangouts: Relax and recharge with us.</li></p>
 								</div>
 							</div>
 						</div>
@@ -78,11 +79,11 @@
 									<img src="images/pic03.jpg" alt="" width="3472" height="1236"></div>
 								<div class="content">
 									<header class="align-center"><h2>Connect with Us:</h2>
-										<p>
-											<li>Grab a flyer from our booth</li>
-											<li>Fill out an interest form</li>
-											<li>Let's meet up – on your time, on your terms</li></p>
-									</header><hr><p></p>
+										<p>R.E.A.C.H.</p>
+									</header><hr><p>
+										<li>Grab a flyer from our booth</li>
+										<li>Fill out an interest form</li>
+										<li>Let's meet up – on your time, on your terms</li></p>
 								</div>
 							</div>
 						</div>
@@ -101,20 +102,29 @@
 								<hr><form action="#" method="post">
 									<div class="field half first">
 										<label for="name">Name</label>
-										<input name="name" id="name" type="text" placeholder="Name"></div>
+										<input name="name" id="name" type="text" placeholder="First Name, Last Name" required></div>
 									<div class="field half">
 										<label for="email">Email</label>
-										<input name="email" id="email" type="email" placeholder="Email"></div>
-									<div class="field">
+										<input name="email" id="email" type="email" placeholder="Email" required></div>
+
+									<div class="field half first">
+										<label for="dob">Date of Birth</label>
+										<input name="dob" id="dob" type="date"></div>
+									<div class="field half">
+										<label for="phone">Phone Number</label>
+										<input name="phone" id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required></div>
+
+									<div class="field half first">
 										<label for="dept">Year</label>
 										<div class="select-wrapper">
 											<select name="dept" id="dept"><option value="">- Year -</option><option value="1">1st</option><option value="1">2nd</option><option value="1">3rd</option><option value="1">4th</option><option value="1">5th+</option></select></div>
 									</div>
-									<div class="field">
+									<div class="field half">
 										<label for="dept">College</label>
 										<div class="select-wrapper">
 											<select name="dept" id="dept"><option value="">- College -</option><option value="1">Revelle</option><option value="1">Muir</option><option value="1">Marshall</option><option value="1">ERC</option><option value="1">Sixth</option><option value="1">Seventh</option><option value="1">Eigth</option><option value="1">Other</option></select></div>
 									</div>
+									
 									<div class="field">
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="6" placeholder="Message"></textarea></div>
